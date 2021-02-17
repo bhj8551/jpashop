@@ -19,7 +19,6 @@ class MemberRepositoryTest {
     
     @Test
     @Transactional
-    @Commit
     public void testMember() throws Exception {
         //given
         Member member = new Member();
